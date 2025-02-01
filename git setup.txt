@@ -1,5 +1,6 @@
 
 …or create a new repository on the command line
+
 echo "# S.O.L.I.D-Principles" >> README.md
 git init
 git add README.md
