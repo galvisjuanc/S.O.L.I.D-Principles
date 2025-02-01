@@ -1,6 +1,6 @@
 namespace OpenClose
 {
-    public class EmployeePartTime
+    public class EmployeePartTime : Employee
     {
         public string Fullname { get; set; }
         public int HoursWorked { get; set; }
@@ -9,6 +9,11 @@ namespace OpenClose
         {
             Fullname = fullname;
             HoursWorked = hoursWorked;
-        }        
+        }
+
+        public override decimal CalculateSalaryMonthly()
+        {
+            throw new NotImplementedException();
+        }
     }
 }
