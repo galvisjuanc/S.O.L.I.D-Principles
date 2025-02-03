@@ -13,7 +13,7 @@ public class EmployeeContractor : IEmployee
 
     public decimal CalculateSalaryMonthly()
     {
-        decimal hourValue = 18000M;
+        decimal hourValue = 25000M;
         decimal salary = hourValue * HoursWorked;
         return salary;
     }
