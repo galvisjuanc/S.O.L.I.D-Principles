@@ -5,7 +5,7 @@ namespace Liskov
         public string Fullname { get; set; }
         public int HoursWorked { get; set; }
 
-        public  Employee(string fullname, int hoursWorked, int ExtraHours)
+        public  Employee(string fullname, int hoursWorked)
         {
             Fullname = fullname;
             HoursWorked = hoursWorked;
