@@ -6,6 +6,7 @@ namespace Liskov
 
         public EmployeeFullTime(string fullname, int hoursWorked, int extrahours) : base(fullname, hoursWorked)
         {
+            ExtraHours = extrahours;
         }
 
         public override decimal CalculateSalary()
