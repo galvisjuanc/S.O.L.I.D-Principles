@@ -6,12 +6,12 @@ namespace DependencyInversion.Controllers;
 public class StudentController : ControllerBase
 {
     IStudentRepository studentRepository;
-    ILogBook logbook;
+    ILogbook logbook;
 
-    public StudentController(IStudentRepository student, ILogBook log)
+    public StudentController(IStudentRepository student, ILogbook log)
     {
         IStudentRepository = student;
-        ILogBook = log;
+        ILogbook = log;
     }
 
     [HttpGet]
