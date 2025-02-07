@@ -9,7 +9,7 @@ builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 builder.Services.AddScoped<IStudentRepository, StudentRepository>();
-builder.Services.AddScoped<ILogbook, Logbook>()
+builder.Services.AddScoped<ILogbook, Logbook>();
 
 var app = builder.Build();
 

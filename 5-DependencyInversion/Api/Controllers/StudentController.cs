@@ -10,8 +10,8 @@ public class StudentController : ControllerBase
 
     public StudentController(IStudentRepository student, ILogbook log)
     {
-        IStudentRepository = student;
-        ILogbook = log;
+        studentRepository = student;
+        logbook = log;
     }
 
     [HttpGet]
